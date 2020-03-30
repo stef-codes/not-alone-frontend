@@ -5,6 +5,7 @@ import classNames from "classnames";
 import { makeStyles } from "@material-ui/core/styles";
 
 // @material-ui/icons
+import Favorite from "@material-ui/icons/Favorite";
 
 // core components
 import Header from "components/Header/Header.js";
@@ -18,7 +19,7 @@ import Parallax from "components/Parallax/Parallax.js";
 import styles from "assets/jss/material-kit-react/views/landingPage.js";
 
 // Sections for this page
-import ProductSection from "./Sections/ProductSection.js";
+// import ProductSection from "./Sections/ProductSection.js";
 import TeamSection from "./Sections/TeamSection.js";
 import WorkSection from "./Sections/WorkSection.js";
 
@@ -64,7 +65,7 @@ export default function LandingPage(props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {/* <i className="fas fa-play" /> */}
+                <Favorite className={classes.icon} /> 
                  Let's Talk
               </Button>
             </GridItem>
@@ -73,7 +74,7 @@ export default function LandingPage(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
-          <ProductSection />
+          {/* <ProductSection /> */}
           <TeamSection />
           <WorkSection />
         </div>
