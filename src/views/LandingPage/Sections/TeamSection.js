@@ -16,7 +16,7 @@ import CardFooter from "components/Card/CardFooter.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
 
-import team1 from "assets/img/faces/avatar.jpg";
+import team1 from "assets/img/faces/stef.jpg";
 import team2 from "assets/img/faces/christian.jpg";
 import team3 from "assets/img/faces/kendall.jpg";
 
@@ -33,7 +33,7 @@ export default function TeamSection() {
     <div className={classes.section}>
       <h2 className={classes.title}>Connect with Me</h2>
       <div>
-        <GridContainer>
+        <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
@@ -42,7 +42,7 @@ export default function TeamSection() {
               <h4 className={classes.cardTitle}>
                 Stefanie Davis
                 <br />
-                <small className={classes.smallTitle}>Model</small>
+                <small className={classes.smallTitle}>Software Engineer</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
@@ -50,8 +50,8 @@ export default function TeamSection() {
                   disease that didn't allow me to leave the house. I understand the toll
                   lonliness can take on your mind. So, mandatory social distancing helps
                   #flatten the curve. But, it also can leave some people feeling lonely. 
-                  I hope this project can help fill the gap. Check out more details on the 
-                  <a href="https://covid-global-hackathon.devpost.com/">hackathon</a> 
+                  I hope this project can help fill the gap. Check out more details on the  
+                  <a href="https://covid-global-hackathon.devpost.com/"> hackathon </a> 
                   and build something too. 
                 </p>
               </CardBody>
@@ -69,13 +69,6 @@ export default function TeamSection() {
                   className={classes.margin5}
                 >
                   <i className={classes.socials + " fab fa-instagram"} />
-                </Button>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-facebook"} />
                 </Button>
               </CardFooter>
             </Card>
