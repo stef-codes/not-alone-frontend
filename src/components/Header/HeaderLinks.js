@@ -36,24 +36,23 @@ export default function HeaderLinks(props) {
           }}
           buttonIcon={Apps}
           dropdownList={[
-            <Link to="/" className={classes.dropdownLink}>
-              All components
+            <Link href="https://www.cdc.gov/coronavirus/2019-ncov/daily-life-coping/managing-stress-anxiety.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fprepare%2Fmanaging-stress-anxiety.html" className={classes.dropdownLink}>
+              Mental Health
             </Link>,
             <a
-              href="https://creativetimofficial.github.io/material-kit-react/#/documentation?ref=mkr-navbar"
+              href="https://www.headspace.com/meditation/meditation-for-beginners"
               target="_blank"
               className={classes.dropdownLink}
             >
-              Documentation
+              Meditation
             </a>
           ]}
         />
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="/login-page"
+          href="/sign-up"
           color="transparent"
-          target="_blank"
           className={classes.navLink}
         >
           <PanTool className={classes.icons} /> Volunteer
