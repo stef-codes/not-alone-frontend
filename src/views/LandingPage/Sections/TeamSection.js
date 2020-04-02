@@ -33,7 +33,7 @@ export default function TeamSection() {
       <div>
         <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={4}>
-            <Card plain>
+            <Card >
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img src={team1} alt="..." className={imageClasses} />
               </GridItem>
